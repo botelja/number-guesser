@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Number Guesser</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="uk-container">
+    <div class="container">
         <h1>Number Guesser</h1>
 
         <div id="game">
-            <p>Guess a number between <span id="min-num"></span> and <span id="max-num"></span></p>
+
+            <p class="intro">Guess a number between <span id="min-num"></span> and <span id="max-num"></span></p>
 
             <input type="number" id="guess-input" placeholder="Enter your number...">
             <button class="button" type="submit" id="guess-btn">Play</button>
